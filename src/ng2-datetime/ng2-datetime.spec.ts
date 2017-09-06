@@ -28,6 +28,7 @@ describe('ng2-datetime', () => {
             (<any>fixture.componentInstance).date = null;
 
             tickAndDetect(fixture);
+            tickAndDetect(fixture);
 
             component.datepicker.datepicker('setDate', new Date(2011, 2, 5));
 
